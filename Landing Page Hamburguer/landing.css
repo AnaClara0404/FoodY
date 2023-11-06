@@ -1,0 +1,135 @@
+:root{
+    --azul-principal: #12274F;
+    --cor-da-fonte: #FFFFFF;
+    --verde-botao: #00FF75;
+    --fonte-principal: 'Poppins';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--azul-principal);
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-principal);
+}
+
+.container{
+    height: 100vh;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.logo{
+    height: 65px;
+    margin-left: 45px;
+}
+
+.funcionalidades{
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.search__box{
+    height: 30px;
+    width: 300px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    margin-top: 4px;
+    text-decoration: underline;
+    color: var(--cor-da-fonte);
+}
+
+
+
+input::placeholder{
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    font-weight: regular;
+}
+
+.flecha{
+    position: relative;
+    bottom: 50%;
+}
+
+.texto{
+    position: absolute;
+    top: 10%;
+    right: 67%;
+}
+
+
+.texto__1{
+    font-size: 51px;
+}
+
+.texto__2{
+    font-size: 71px;
+}
+
+
+.botao{
+    background-color: var(--verde-botao);
+    color: var(--cor-da-fonte);
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 250px;
+    height: 96px;
+}
+
+.btn__img{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.container__btn{
+    position: absolute;
+    top: 60%;
+    right: 74%;
+    align-items: center;
+}
+
+.container__legenda{
+    position: relative;
+    left: 150px;
+    top: 80px;
+}
+.hamburguer__logo{
+    height: 0;
+}
+.hamburguer__img{
+    position: absolute;
+    left: 60%;
+    bottom: 130px;
+}
+
+.fundo__verde{
+    position: relative;
+    left: 63%;
+    bottom: 250px;
+}
+
+.redes_sociais_imgs{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    display: flex;
+    gap: 50px;
+}
+
